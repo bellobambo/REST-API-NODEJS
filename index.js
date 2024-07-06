@@ -9,8 +9,13 @@ app.use('/api/products', require('./routes/productRoutes'))
 //   BASE URL
 
 app.get("/", (request, response) => {
-    response.json('Welcome! Simple & Free CRUD API cc bellobambo21@gmail.com');
-  });
+    response.json({
+        message: 'Welcome! Simple & Free CRUD API',
+        contactEmail: 'bellobambo21@gmail.com',
+        githubLink: 'https://github.com/bellobambo/REST-API-NODEJS'
+    });
+});
+
   
 
 // HOST(LOCALHOST:3000)
