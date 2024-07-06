@@ -5,9 +5,9 @@
   "scripts": {
     "start": "nodemon index.js"
   },
-  "author": "",
+  "author": "bambo",
   "license": "ISC",
-  "description": "",
+  "description": "NODEJS Express CRUD API, bellobambo21@gmail.com",
   "dependencies": {
     "express": "^4.19.2"
   },
